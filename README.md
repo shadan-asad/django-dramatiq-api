@@ -9,7 +9,7 @@
 #### GET https://catfact-7270ffcda952.herokuapp.com/api/get_fact
 
 ## Flow
-##### /fetch_fact: It queues an async task to fetch data from https://cat-fact.herokuapp.com/facts endpoint and it returns {‘success’: True} response if the “message queueing” is successful
-##### /get_fact: returns the fact which was processed after hitting the above API.
+#### /fetch_fact: It queues an async task to fetch data from https://cat-fact.herokuapp.com/facts endpoint and it returns {‘success’: True} response if the “message queueing” is successful
+#### /get_fact: returns the fact which was processed after hitting the above API.
 
 
