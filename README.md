@@ -4,9 +4,9 @@
 ### Employed a worker-based architecture with gunicorn and Dramatiq to manage asynchronous tasks, effectively decoupling data processing from user requests.
 
 ## Live Links for the APIs
-#### GET catfact-7270ffcda952.herokuapp.com/api/health_check
-#### POST catfact-7270ffcda952.herokuapp.com/api/fetch_fact
-#### GET catfact-7270ffcda952.herokuapp.com/api/get_fact
+#### GET https://catfact-7270ffcda952.herokuapp.com/api/health_check
+#### POST https://catfact-7270ffcda952.herokuapp.com/api/fetch_fact
+#### GET https://catfact-7270ffcda952.herokuapp.com/api/get_fact
 
 ## Flow
 ##### /fetch_fact: It queues an async task to fetch data from https://cat-fact.herokuapp.com/facts endpoint and it returns {‘success’: True} response if the “message queueing” is successful
