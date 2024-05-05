@@ -7,3 +7,7 @@
 #### GET catfact-7270ffcda952.herokuapp.com/api/health_check
 #### POST catfact-7270ffcda952.herokuapp.com/api/fetch_fact
 #### GET catfact-7270ffcda952.herokuapp.com/api/get_fact
+
+### Flow
+##### /fetch_fact accepts a user request to fetch the fact and sends back success message if request gets queued for processing asynchronously.
+##### /get_fact returns the fact which was processed after hitting the above API.
